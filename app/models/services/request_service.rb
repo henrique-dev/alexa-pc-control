@@ -2,7 +2,7 @@ module Services
   class RequestService < ApplicationService
     def initialize(params:)
       @alexa_response = Utils::Alexa::Response.new
-      @alexa_request = Utils::Alexa::Request.new(params: params)
+      @alexa_request = Utils::Alexa::Request.new(params)
     end
 
     def call

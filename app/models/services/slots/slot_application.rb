@@ -1,10 +1,11 @@
 module Services
   module Slots
     class SlotApplication < ApplicationService
-      def initialize(alexa_response:, data:, slot:)
+      def initialize(alexa_response:, data:, slot:, from: '')
         @alexa_response = alexa_response
         @slot = slot
         @data = data
+        @from = from
       end
 
       def call
@@ -12,7 +13,7 @@ module Services
       end
 
       def handle_slot
-
+        # do nothing
       end
     end
   end

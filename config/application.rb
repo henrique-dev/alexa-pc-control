@@ -23,8 +23,10 @@ module Mypc
     # Initialize configuration defaults for originally generated Rails version.
     config.load_defaults 7.0
 
-    # for ngrok
-    # config.hosts << "2fac-2804-431-d7fe-ec2a-440d-a388-1fd-55a4.sa.ngrok.io"
+    unless Rails.env.test?
+      # for ngrok
+      config.hosts << "7c0d-2804-431-d7fe-ec2a-1912-8228-864b-ef46.sa.ngrok.io"
+    end
 
     # Configuration for the application, engines, and railties goes here.
     #

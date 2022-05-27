@@ -11,7 +11,9 @@ RSpec.describe Services::RequestService, type: :service do
   context 'create a request' do
     it 'dont call a intent without a request' do
       expect(Services::IntentService).to_not receive(:call)
-      described_class.call(params: request_without_request)
+      expect {
+        described_class.call(params: request_without_request)
+      }.to raise_error(Dry::Struct::Error)
     end
 
     it 'dont call a intent without a intent' do

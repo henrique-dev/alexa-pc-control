@@ -10,6 +10,6 @@ module Alexa
     field :commands,                    type: Array
     field :prompts,                     type: Array
 
-    validates_presence_of :name, :type, :paths, :commands
+    validates_presence_of :name, :type
   end
 end

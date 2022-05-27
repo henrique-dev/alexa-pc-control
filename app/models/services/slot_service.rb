@@ -12,13 +12,12 @@ module Services
 
     def create_slot
       return @alexa_response.body unless @slot
-      return unless slot_class = get_slot_class(@slot[:name])
+      return unless slot_class = SlotService::get_slot_class(@slot[:name])
 
       slot_class.call(alexa_response: @alexa_response, slot: @slot, data: @data)
     end
 
-    private
-    def get_slot_class(slot_name)
+    def self.get_slot_class(slot_name)
       "Services::Slots::#{slot_name.camelize}".constantize
     end
   end

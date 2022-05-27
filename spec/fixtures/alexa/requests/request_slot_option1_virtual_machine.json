@@ -1,0 +1,101 @@
+{
+	"version": "1.0",
+	"session": {
+		"new": false,
+		"sessionId": "amzn1.echo-api.session.a445b5e7-0a89-4419-9266-616565598c08",
+		"application": {
+			"applicationId": "amzn1.ask.skill.5ba7ad50-3740-43c0-b1e4-b29f206544c2"
+		},
+		"attributes": {
+			"options": [
+				{
+					"id": "Debian Dev1",
+					"name": "Debian Dev1"
+				},
+				{
+					"id": "Debian Dev2",
+					"name": "Debian Dev2"
+				},
+				{
+					"id": "Debian Dev3",
+					"name": "Debian Dev3"
+				}
+			],
+			"step": 1,
+			"slot": "open_program",
+			"program": "virtual_machine"
+		},
+		"user": {
+			"userId": "amzn1.ask.account.AHM2K3JS5ZG3CMR7C2TEZMF5MLJAEIGNRNN4YM7IU6C3LOTT4UL7JDIZHTFVZO3YPNVWUDYD5QMHPWYU7GEZJ5U44OQZO3ZLDT5A4LOAXMIBTMSH6UUKKNE4FF4ZAHWD3SXV7QP33VFKQNLXY3NMELREG4QZBTAIFWWZQOHK3VIV5CNF4DBU2IBTKVQMXWGBVDWKCCQMVAYOEFQ"
+		}
+	},
+	"context": {
+		"Extensions": {
+			"available": {
+				"aplext:backstack:10": {}
+			}
+		},
+		"System": {
+			"application": {
+				"applicationId": "amzn1.ask.skill.5ba7ad50-3740-43c0-b1e4-b29f206544c2"
+			},
+			"person": {
+				"personId": "amzn1.ask.person.AJRMEGHZB3V2RPFVAEKZTBR2YUCQGPAOAQK5E7RJGDDPAE6ZOQ4BX3GNWEHSCBHT2UTT5DVMLRKHZP562RL25IQXXPRPWX6FR7TBSS3J",
+				"authenticationConfidenceLevel": {
+					"level": 200
+				}
+			},
+			"user": {
+				"userId": "amzn1.ask.account.AHM2K3JS5ZG3CMR7C2TEZMF5MLJAEIGNRNN4YM7IU6C3LOTT4UL7JDIZHTFVZO3YPNVWUDYD5QMHPWYU7GEZJ5U44OQZO3ZLDT5A4LOAXMIBTMSH6UUKKNE4FF4ZAHWD3SXV7QP33VFKQNLXY3NMELREG4QZBTAIFWWZQOHK3VIV5CNF4DBU2IBTKVQMXWGBVDWKCCQMVAYOEFQ"
+			},
+			"device": {
+				"deviceId": "amzn1.ask.device.AEY6MHSOSV5KIDSYXWYX7VPOPKXACPZ2WA55PEZ55BS26XTHXQPJYQPBJRENXCRRYBWAUNIX3MKENH45QOLMRONA6SFFXMPEYAQEFVO4WNICQTZ74V73NEFHYXDGLYXX67TT6MVRYU3ZVBB4VAWVNAMXZUBCQIGT7TA7S5GGIAAZWAJRCAJSU",
+				"supportedInterfaces": {}
+			},
+			"apiEndpoint": "https://api.amazonalexa.com",
+			"apiAccessToken": "eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImtpZCI6IjEifQ.eyJhdWQiOiJodHRwczovL2FwaS5hbWF6b25hbGV4YS5jb20iLCJpc3MiOiJBbGV4YVNraWxsS2l0Iiwic3ViIjoiYW16bjEuYXNrLnNraWxsLjViYTdhZDUwLTM3NDAtNDNjMC1iMWU0LWIyOWYyMDY1NDRjMiIsImV4cCI6MTY1MzY2NjQzMywiaWF0IjoxNjUzNjY2MTMzLCJuYmYiOjE2NTM2NjYxMzMsInByaXZhdGVDbGFpbXMiOnsibm9uTHdhU2NvcGVzIjoiYWxleGE6OnBlcnNvbl9pZDpyZWFkIiwiY29udGV4dCI6IkFBQUFBQUFBQUFCeFVqSVdodTBSVHE3RzBKekJVRDRvZFFFQUFBQUFBQUF2MGgwalhGd2owSDhkNHdoMU5RM0F4a3hxbVMwZTJOZ2JabGdkQUJKVTBtekJUK04zdFgzY3dLbCtnNlNyc1gvRnlXalNJcjBuSXV2NE1hV1pXVlFHYiswdTZ2VjdZWm5qQnZVY3RrTE84eU42cnZxQitla1AxQU5MbGk3RGFiSk96elNZcmZXMUVHZ0N5NURORmdNMXg2bzc2WHN5aENhSUJBbzJHdXJqdGJhWlNJRDF2THd6dEhqMWpGT3NUK0lEaDF0U3gzZC90OTZiS3QzNEZCZjNwRnlWUHBoWCswM2hxK3NDclplRlIreVgxSEFhMk1nTzZ3WkVwSVJGMFNsS3lBRHVCVkxWOThhbUlnMHVGTUVJQzFveGlvc2FsdkRlRGxDN0dEd05rU1lTdWFsblBQTEZ4TGF6Z2cwUFg0ckk2WGRiM2wvMGpEbGE0cUo4ejNsRkFYMHNHK0tnSy84R2FSQ0FwZjU0YWNkMkgvUGI1TDI0WVIwR0hUOHI2NGd2cVZzK2p2VnR3NDR1dGJodjJOOFY3TnhwUjFma0xrckcyRG9aUllTa3hNWHJ1Mm1ZZDYwdXVJMkZyY1ZtbUo4dkFUbk1NSFYybVFENzVhZTVxNjJ0UVB1Y0RaTER2MU5RWUc4M2VjNUtRNU84TmZiUyIsImNvbnNlbnRUb2tlbiI6bnVsbCwiZGV2aWNlSWQiOiJhbXpuMS5hc2suZGV2aWNlLkFFWTZNSFNPU1Y1S0lEU1lYV1lYN1ZQT1BLWEFDUFoyV0E1NVBFWjU1QlMyNlhUSFhRUEpZUVBCSlJFTlhDUlJZQldBVU5JWDNNS0VOSDQ1UU9MTVJPTkE2U0ZGWE1QRVlBUUVGVk80V05JQ1FUWjc0VjczTkVGSFlYREdMWVhYNjdUVDZNVlJZVTNaVkJCNFZBV1ZOQU1YWlVCQ1FJR1Q3VEE3UzVHR0lBQVpXQUpSQ0FKU1UiLCJ1c2VySWQiOiJhbXpuMS5hc2suYWNjb3VudC5BSE0ySzNKUzVaRzNDTVI3QzJURVpNRjVNTEpBRUlHTlJOTjRZTTdJVTZDM0xPVFQ0VUw3SkRJWkhURlZaTzNZUE5WV1VEWUQ1UU1IUFdZVTdHRVpKNVU0NE9RWk8zWkxEVDVBNExPQVhNSUJUTVNINlVVS0tORTRGRjRaQUhXRDNTWFY3UVAzM1ZGS1FOTFhZM05NRUxSRUc0UVpCVEFJRldXWlFPSEszVklWNUNORjREQlUySUJUS1ZRTVhXR0JWRFdLQ0NRTVZBWU9FRlEifX0.Q0u0F6B-Xs7fEbnWvgYEfMpog4t8daNloWd22Vw9N5oU9LvXza0r6hwj__r1lt4FF8ZGV1dVyTC8zx2txk-frICsuZhFzUoZS7Qnn1ovTBpAh5z-0pOrtfZ7URvo2i701Ja1FHsHiqzqus7sW8d11gptYv7J1yXqQDkVOVGOMM4ayc4eq8nx_A7PbB6pBe2BOHHZAgxA_BpiIs2EWa_YP7rF99sKU8i-rSK_iaB_cvotCfoUN1M8c3sVmPCxw1UE07j6gq6S9P0_DSxWMg45mZ72OREYL55BrBgRA-CqoeNy63IXzDT_rGHs9hFOPDYOtLCYj8a3C_Yhnypo20Q7oA"
+		}
+	},
+	"request": {
+		"type": "IntentRequest",
+		"requestId": "amzn1.echo-api.request.2f0df297-ccae-4389-afbc-abd0bf5b545a",
+		"locale": "pt-BR",
+		"timestamp": "2022-05-27T15:42:13Z",
+		"intent": {
+			"name": "PcCommands",
+			"confirmationStatus": "NONE",
+			"slots": {
+				"number_option": {
+					"name": "number_option",
+					"value": "1",
+					"confirmationStatus": "NONE",
+					"source": "USER",
+					"slotValue": {
+						"type": "Simple",
+						"value": "1"
+					}
+				},
+				"search_term": {
+					"name": "search_term",
+					"confirmationStatus": "NONE"
+				},
+				"open_program": {
+					"name": "open_program",
+					"confirmationStatus": "NONE"
+				},
+				"power_off_component": {
+					"name": "power_off_component",
+					"confirmationStatus": "NONE"
+				},
+				"close_program": {
+					"name": "close_program",
+					"confirmationStatus": "NONE"
+				},
+				"power_on_component": {
+					"name": "power_on_component",
+					"confirmationStatus": "NONE"
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,109 @@
+{
+	"version": "1.0",
+	"session": {
+		"new": true,
+		"sessionId": "amzn1.echo-api.session.bb8dfbdf-58e0-4113-937e-1649117fa78e",
+		"application": {
+			"applicationId": "amzn1.ask.skill.5ba7ad50-3740-43c0-b1e4-b29f206544c2"
+		},
+		"attributes": {},
+		"user": {
+			"userId": "amzn1.ask.account.AHM2K3JS5ZG3CMR7C2TEZMF5MLJAEIGNRNN4YM7IU6C3LOTT4UL7JDIZHTFVZO3YPNVWUDYD5QMHPWYU7GEZJ5U44OQZO3ZLDT5A4LOAXMIBTMSH6UUKKNE4FF4ZAHWD3SXV7QP33VFKQNLXY3NMELREG4QZBTAIFWWZQOHK3VIV5CNF4DBU2IBTKVQMXWGBVDWKCCQMVAYOEFQ"
+		}
+	},
+	"context": {
+		"Extensions": {
+			"available": {
+				"aplext:backstack:10": {}
+			}
+		},
+		"System": {
+			"application": {
+				"applicationId": "amzn1.ask.skill.5ba7ad50-3740-43c0-b1e4-b29f206544c2"
+			},
+			"user": {
+				"userId": "amzn1.ask.account.AHM2K3JS5ZG3CMR7C2TEZMF5MLJAEIGNRNN4YM7IU6C3LOTT4UL7JDIZHTFVZO3YPNVWUDYD5QMHPWYU7GEZJ5U44OQZO3ZLDT5A4LOAXMIBTMSH6UUKKNE4FF4ZAHWD3SXV7QP33VFKQNLXY3NMELREG4QZBTAIFWWZQOHK3VIV5CNF4DBU2IBTKVQMXWGBVDWKCCQMVAYOEFQ"
+			},
+			"device": {
+				"deviceId": "amzn1.ask.device.AEY6MHSOSV5KIDSYXWYX7VPOPKXACPZ2WA55PEZ55BS26XTHXQPJYQPBJRENXCRRYBWAUNIX3MKENH45QOLMRONA6SFFXMPEYAQEFVO4WNICQTZ74V73NEFHYXDGLYXX67TT6MVRYU3ZVBB4VAWVNAMXZUBCQIGT7TA7S5GGIAAZWAJRCAJSU",
+				"supportedInterfaces": {}
+			},
+			"apiEndpoint": "https://api.amazonalexa.com",
+			"apiAccessToken": "eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImtpZCI6IjEifQ.eyJhdWQiOiJodHRwczovL2FwaS5hbWF6b25hbGV4YS5jb20iLCJpc3MiOiJBbGV4YVNraWxsS2l0Iiwic3ViIjoiYW16bjEuYXNrLnNraWxsLjViYTdhZDUwLTM3NDAtNDNjMC1iMWU0LWIyOWYyMDY1NDRjMiIsImV4cCI6MTY1MzYxOTA4MywiaWF0IjoxNjUzNjE4NzgzLCJuYmYiOjE2NTM2MTg3ODMsInByaXZhdGVDbGFpbXMiOnsibm9uTHdhU2NvcGVzIjoiYWxleGE6OnBlcnNvbl9pZDpyZWFkIiwiY29udGV4dCI6IkFBQUFBQUFBQUFCeFVqSVdodTBSVHE3RzBKekJVRDRvS2dFQUFBQUFBQUFacDZ3ZzhMaWd3RFlrL2FwV0l0dklJOHZBLzhBM3o5RmZPWEJNL2MrekVEaUdubmhhYmlKYUVITmNRN0ltZnBXSmdya1ZiMERuM2JMOWsrRm14WENVN2tRSG1GMGp4TEtNTm80SmMxQ3VVa1NTa0hzMGJMNU92NndYdDhOWk1xRytUZFR1QmRXSXNhd3ZYcFhTdHlMWmhWWFJhL3BKeWVYRjNpVFR1Rm11TlNlSVVjQzZhT2hvL3E5dnNsL0pCU2pjcjlVTm4xdmRqOTFsSHUrTDhYaGMyVG9BcjhKQy9QajhlbTUyMTdnZEVSLzZYQ05GZ1FLaGhBd2t5MjF5c1N2SFN6bFFIZXpHVWp4dy9TL0JWOUJFNXhrMGY4RWU5VkU4UlBiK3JCOGpzNG5KNm5DVTFoWkFiaVVzQ0xQK0JNSHp1bnJQSS9jcG8vUGVFTUdMME1xZnRZdVJrRjlsWEdrcFlDL1E5UTdiaHNQRUdlM0xtWVhkRzMrZ3VJaktDcDdJRG9Ec2N5VnA2Mm1TIiwiY29uc2VudFRva2VuIjpudWxsLCJkZXZpY2VJZCI6ImFtem4xLmFzay5kZXZpY2UuQUVZNk1IU09TVjVLSURTWVhXWVg3VlBPUEtYQUNQWjJXQTU1UEVaNTVCUzI2WFRIWFFQSllRUEJKUkVOWENSUllCV0FVTklYM01LRU5INDVRT0xNUk9OQTZTRkZYTVBFWUFRRUZWTzRXTklDUVRaNzRWNzNORUZIWVhER0xZWFg2N1RUNk1WUllVM1pWQkI0VkFXVk5BTVhaVUJDUUlHVDdUQTdTNUdHSUFBWldBSlJDQUpTVSIsInVzZXJJZCI6ImFtem4xLmFzay5hY2NvdW50LkFITTJLM0pTNVpHM0NNUjdDMlRFWk1GNU1MSkFFSUdOUk5ONFlNN0lVNkMzTE9UVDRVTDdKRElaSFRGVlpPM1lQTlZXVURZRDVRTUhQV1lVN0dFWko1VTQ0T1FaTzNaTERUNUE0TE9BWE1JQlRNU0g2VVVLS05FNEZGNFpBSFdEM1NYVjdRUDMzVkZLUU5MWFkzTk1FTFJFRzRRWkJUQUlGV1daUU9ISzNWSVY1Q05GNERCVTJJQlRLVlFNWFdHQlZEV0tDQ1FNVkFZT0VGUSJ9fQ.P66Vop3E35MQu3mULnOwLOlhGFu8GWs9pVxZuehf7wx4NVkFrw5QTFlzMXnKGmwCQ5uryHMvtw0lDRTegHfOsFF51NclvcEHMrwKrDYJgqAkBcM0sAfi2XAtfRmburqS0BNIO0DzCqGMQd7klAcagvHVA5U5NypysD3g8k6XAFrYH_zLpebl-9Su63gVRy3CGMOw-TZMs35GVj00ILQ4vSW5GMr0NX268Vak0mOFDIjexFKq46_KL6z-xbjco2N-4RPLWjaPYuuc-LwDfxia2inEYghDmhU-CYRvHU86bt_SGirrARAUI8ssOaME90T6doF7DnU29t2ja7DRb48dQQ"
+		}
+	},
+	"request": {
+		"type": "IntentRequest",
+		"requestId": "amzn1.echo-api.request.a671e18f-4674-45f9-be42-d8b08ce29265",
+		"locale": "pt-BR",
+		"timestamp": "2022-05-27T02:33:03Z",
+		"intent": {
+			"name": "PcCommands",
+			"confirmationStatus": "NONE",
+			"slots": {
+				"search_term": {
+					"name": "search_term",
+					"confirmationStatus": "NONE"
+				},
+				"open_program": {
+					"name": "open_program",
+					"value": "maquina virtual",
+					"resolutions": {
+						"resolutionsPerAuthority": [
+							{
+								"authority": "amzn1.er-authority.echo-sdk.amzn1.ask.skill.5ba7ad50-3740-43c0-b1e4-b29f206544c2.programs",
+								"status": {
+									"code": "ER_SUCCESS_MATCH"
+								},
+								"values": [
+									{
+										"value": {
+											"name": "maquina virtual",
+											"id": "virtual_machine"
+										}
+									}
+								]
+							}
+						]
+					},
+					"confirmationStatus": "NONE",
+					"source": "USER",
+					"slotValue": {
+						"type": "Simple",
+						"value": "maquina virtual",
+						"resolutions": {
+							"resolutionsPerAuthority": [
+								{
+									"authority": "amzn1.er-authority.echo-sdk.amzn1.ask.skill.5ba7ad50-3740-43c0-b1e4-b29f206544c2.programs",
+									"status": {
+										"code": "ER_SUCCESS_MATCH"
+									},
+									"values": [
+										{
+											"value": {
+												"name": "maquina virtual",
+												"id": "virtual_machine"
+											}
+										}
+									]
+								}
+							]
+						}
+					}
+				},
+				"power_off_component": {
+					"name": "power_off_component",
+					"confirmationStatus": "NONE"
+				},
+				"close_program": {
+					"name": "close_program",
+					"confirmationStatus": "NONE"
+				},
+				"power_on_component": {
+					"name": "power_on_component",
+					"confirmationStatus": "NONE"
+				}
+			}
+		}
+	}
+}

@@ -2,8 +2,10 @@ require 'rails_helper'
 
 RSpec.describe '/amazon_service', type: :request do
 
+  let(:request_example){JSON.parse(File.read('spec/fixtures/alexa/requests/request_example.json')).deep_symbolize_keys}
+
   let(:valid_attributes) {
-    # { description: 'Item', price: 0.0 }
+    request_example
   }
 
   let(:invalid_attributes) {
@@ -12,12 +14,12 @@ RSpec.describe '/amazon_service', type: :request do
 
   describe 'POST /create' do
     it 'renders a successful response' do
-      post amazon_service_index_path(format: :json)
+      post amazon_service_index_path(format: :json, params: request_example)
       expect(response).to be_successful
     end
 
     it 'have a valid default response body' do
-      post amazon_service_index_path(format: :json)
+      post amazon_service_index_path(format: :json, params: request_example)
       expect(response.body).to include_json(
         {
           'version' => '1.0',
