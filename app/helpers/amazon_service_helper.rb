@@ -1,0 +1,2 @@
+module AmazonServiceHelper
+end

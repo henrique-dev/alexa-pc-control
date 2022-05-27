@@ -1,0 +1,87 @@
+{
+	"version": "1.0",
+	"session": {
+		"new": true,
+		"sessionId": "amzn1.echo-api.session.6a98ef46-f377-4a71-bdf3-0bba4bcf9885",
+		"application": {
+			"applicationId": "amzn1.ask.skill.5ba7ad50-3740-43c0-b1e4-b29f206544c2"
+		},
+		"attributes": {},
+		"user": {
+			"userId": "amzn1.ask.account.AHM2K3JS5ZG3CMR7C2TEZMF5MLJAEIGNRNN4YM7IU6C3LOTT4UL7JDIZHTFVZO3YPNVWUDYD5QMHPWYU7GEZJ5U44OQZO3ZLDT5A4LOAXMIBTMSH6UUKKNE4FF4ZAHWD3SXV7QP33VFKQNLXY3NMELREG4QZBTAIFWWZQOHK3VIV5CNF4DBU2IBTKVQMXWGBVDWKCCQMVAYOEFQ"
+		}
+	},
+	"context": {
+		"Viewports": [
+			{
+				"type": "APL",
+				"id": "main",
+				"shape": "RECTANGLE",
+				"dpi": 213,
+				"presentationType": "STANDARD",
+				"canRotate": false,
+				"configuration": {
+					"current": {
+						"mode": "HUB",
+						"video": {
+							"codecs": [
+								"H_264_42",
+								"H_264_41"
+							]
+						},
+						"size": {
+							"type": "DISCRETE",
+							"pixelWidth": 1280,
+							"pixelHeight": 800
+						}
+					}
+				}
+			}
+		],
+		"Viewport": {
+			"experiences": [
+				{
+					"arcMinuteWidth": 346,
+					"arcMinuteHeight": 216,
+					"canRotate": false,
+					"canResize": false
+				}
+			],
+			"mode": "HUB",
+			"shape": "RECTANGLE",
+			"pixelWidth": 1280,
+			"pixelHeight": 800,
+			"dpi": 213,
+			"currentPixelWidth": 1280,
+			"currentPixelHeight": 800,
+			"touch": [
+				"SINGLE"
+			],
+			"video": {
+				"codecs": [
+					"H_264_42",
+					"H_264_41"
+				]
+			}
+		},
+		"Extensions": {
+			"available": {
+				"aplext:backstack:10": {}
+			}
+		},
+		"System": {
+			"application": {
+				"applicationId": "amzn1.ask.skill.5ba7ad50-3740-43c0-b1e4-b29f206544c2"
+			},
+			"user": {
+				"userId": "amzn1.ask.account.AHM2K3JS5ZG3CMR7C2TEZMF5MLJAEIGNRNN4YM7IU6C3LOTT4UL7JDIZHTFVZO3YPNVWUDYD5QMHPWYU7GEZJ5U44OQZO3ZLDT5A4LOAXMIBTMSH6UUKKNE4FF4ZAHWD3SXV7QP33VFKQNLXY3NMELREG4QZBTAIFWWZQOHK3VIV5CNF4DBU2IBTKVQMXWGBVDWKCCQMVAYOEFQ"
+			},
+			"device": {
+				"deviceId": "amzn1.ask.device.AEY6MHSOSV5KIDSYXWYX7VPOPKXACPZ2WA55PEZ55BS26XTHXQPJYQPBJRENXCRRYBWAUNIX3MKENH45QOLMRONA6SFFXMPEYAQEFVO4WNICQTZ74V73NEFHYXDGLYXX67TT6MVRYU3ZVBB4VAWVNAMXZUBCQIGT7TA7S5GGIAAZWAJRCAJSU",
+				"supportedInterfaces": {}
+			},
+			"apiEndpoint": "https://api.amazonalexa.com",
+			"apiAccessToken": "eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiIsImtpZCI6IjEifQ.eyJhdWQiOiJodHRwczovL2FwaS5hbWF6b25hbGV4YS5jb20iLCJpc3MiOiJBbGV4YVNraWxsS2l0Iiwic3ViIjoiYW16bjEuYXNrLnNraWxsLjViYTdhZDUwLTM3NDAtNDNjMC1iMWU0LWIyOWYyMDY1NDRjMiIsImV4cCI6MTY1MzU4NDE3MiwiaWF0IjoxNjUzNTgzODcyLCJuYmYiOjE2NTM1ODM4NzIsInByaXZhdGVDbGFpbXMiOnsibm9uTHdhU2NvcGVzIjoiYWxleGE6OnBlcnNvbl9pZDpyZWFkIiwiY29udGV4dCI6IkFBQUFBQUFBQUFCL0c2UDFFNEU5UWp1czM0c2xBVlN5S2dFQUFBQUFBQUJpYlRIL3ZBVUt4MEY2cGp1N1ZlckdtWXJ4M1cwOXdFcWtvVEdkaTFyeHhsMCtzc3IwQzhubW1rOFhvQVd6MW94bXdMZHBSWGdTY0xNQllHUktTdWZ3Nm14OUQzTHBIdXZ3WUsrSmVBNkhwajE0cXRZQ2QxeThnMmJuRGxYeEQvQUJYcmpnSGFCTzNOS0pWOVdmUE5uMmZYLzRYTDA2OWFETEdrWVZFVk9Ycmt0MVJvUlphT1dxZi9WVE9OWGMyUFRzbmZnREE3Um10Q21UM3g3UEpJd2RwbXFUQjRlWUE5cnk1V3QyblFCOGlBeHZIOGplTFNUR0w2d01kaEFRelQwenhlQ21CbU12WjNKWGpycFQ1N3VHbHZsaHhIQkhoTGNPTzhtQjg3NGJEWGh0Q1hreVk2LzRWeEdyaTlhcWZnWVVsUlBvVzdwNkdtY3ZKWWttWjN0U1QvVDdjY0NnNlE1N0pQN0pZa2h3MXlYSHFLb2ZmT1dMUmpzbDVEeHZvK05tZ3NZb1pMYldOUFU5IiwiY29uc2VudFRva2VuIjpudWxsLCJkZXZpY2VJZCI6ImFtem4xLmFzay5kZXZpY2UuQUVZNk1IU09TVjVLSURTWVhXWVg3VlBPUEtYQUNQWjJXQTU1UEVaNTVCUzI2WFRIWFFQSllRUEJKUkVOWENSUllCV0FVTklYM01LRU5INDVRT0xNUk9OQTZTRkZYTVBFWUFRRUZWTzRXTklDUVRaNzRWNzNORUZIWVhER0xZWFg2N1RUNk1WUllVM1pWQkI0VkFXVk5BTVhaVUJDUUlHVDdUQTdTNUdHSUFBWldBSlJDQUpTVSIsInVzZXJJZCI6ImFtem4xLmFzay5hY2NvdW50LkFITTJLM0pTNVpHM0NNUjdDMlRFWk1GNU1MSkFFSUdOUk5ONFlNN0lVNkMzTE9UVDRVTDdKRElaSFRGVlpPM1lQTlZXVURZRDVRTUhQV1lVN0dFWko1VTQ0T1FaTzNaTERUNUE0TE9BWE1JQlRNU0g2VVVLS05FNEZGNFpBSFdEM1NYVjdRUDMzVkZLUU5MWFkzTk1FTFJFRzRRWkJUQUlGV1daUU9ISzNWSVY1Q05GNERCVTJJQlRLVlFNWFdHQlZEV0tDQ1FNVkFZT0VGUSJ9fQ.hbOsmF-s7Q-7tfnqNikDzD2CVh98_-BbIjcmXB2r3hc5JS0tSj8a2HyHBmLlg2kOiM6C-G7PA_a2nAo04GGDcWSbUwTgEXFfJsYwdLhJFssP8q2ohe17grvG6YH_uQWB6QZmyiLP14RFWsWyHKfffzN0PLkhW5rNVsebM6g978nMy1kFGcN5dWCJB-hXHxbQseWJak_LtJFsso0R-clZGIjdAHJRXGvLwVN9xoLEfXVKdJLRwXRZQcjBiBaJre6isCanQqWWwzQM03xWo0i_xUJYU9NbSqAW3nWS2Mo_6kRLsTCj2cZWy6sTqzaXKf7R8fcebAVOf3078r8rzAZmQw"
+		}
+	}
+}
